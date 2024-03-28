@@ -36,6 +36,10 @@ article h1 {
         text-align: center;
 }
 
+video { 
+    border-radius: 1em;
+}
+
 #sally { 
     text-align: center;
     color: gray;
