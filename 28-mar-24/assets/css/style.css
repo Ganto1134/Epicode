@@ -1,0 +1,95 @@
+/* IMPOSTAZIONI GENERALI */
+#contenitore {
+    background-image: url(/assets/img/sfondo.png); 
+    background-repeat: repeat;
+    background-size: contain;
+    padding: 1em;
+    line-height: 1.5;
+}
+
+/* HEADER */
+header { 
+    width: 80% auto;
+    margin: 2em 10%;
+    text-align: center;
+    background-image: linear-gradient(to bottom, blue, darkblue);
+    color: white;
+}
+/* MAIN */
+main { 
+    width: 80% auto;
+    margin: 2em 2em;
+    border: 1px solid black;
+    background-color: white;
+    padding: 1em;
+}  
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+article h1 { 
+    font-size: 3em;
+}
+
+#verde { 
+    color: darkgreen;
+}
+
+#didascalia { 
+    color: gray;
+}
+code { 
+    border: 1px solid black;
+    background-color: lightgray;
+    border-radius: 0.3em;
+}
+iframe { 
+    border-radius: 2em;
+}
+/* TABELLE */
+table { 
+    text-align: center;
+    border-bottom: 1px solid blue;
+}
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+#testa { 
+    background-color: lightblue;
+}
+#linea { 
+    border-right: 1px solid white;
+}
+/* FORM */
+#novità h1 { 
+    text-align: center;
+}
+#novità { background-color: lightgray;
+    padding: 1em;
+    border: 1px solid black;
+}
+
+/* ELEMENTI NELL' ASIDE */
+.articoli {
+    width: 80% auto;
+    background-color: lightgray;
+    border: 1px solid black;
+    margin: 1em;
+    padding: 1em;
+}
+.data{ 
+    float: right;
+}
+#email { 
+    border-bottom: 1px dotted red;
+}
+
+/* FOOTER */
+footer { 
+    width: 80% auto;
+    margin: 2em 10%;
+    background-color: blueviolet;
+    text-align: center;
+}
+footer { 
+    padding: 1.5em;
+}
